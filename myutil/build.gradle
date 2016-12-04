@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "com.example.ws.tablayouttest"
+        applicationId "com.example.ws.utils"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -25,7 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.android.support:design:25.0.0'
     testCompile 'junit:junit:4.12'
-    compile project(':test')
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile files('libs/volley.jar')
 }

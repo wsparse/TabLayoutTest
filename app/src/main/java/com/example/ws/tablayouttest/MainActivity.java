@@ -17,6 +17,7 @@ import fragment.HomeFragment;
 import fragment.SecondFragment;
 import fragment.ThirdFragment;
 
+
 import static android.os.Build.VERSION_CODES.M;
 
 public class MainActivity extends AppCompatActivity {
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         for (String string:array) {
             titleList.add(string);
         }
+
     }
 
     private void initView() {
