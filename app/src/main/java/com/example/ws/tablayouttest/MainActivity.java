@@ -84,4 +84,7 @@ public class MainActivity extends AppCompatActivity {
         viewpager = (ViewPager) findViewById(R.id.viewpager);
         tablayout = (TabLayout) findViewById(R.id.tablayout);
     }
+    public int add(int a ,int b){
+        return a+b;
+    }
 }
