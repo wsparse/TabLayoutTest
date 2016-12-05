@@ -1,12 +1,12 @@
 package com.example.ws.tablayouttest;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +16,6 @@ import fragment.FourFragment;
 import fragment.HomeFragment;
 import fragment.SecondFragment;
 import fragment.ThirdFragment;
-
-
-import static android.os.Build.VERSION_CODES.M;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -91,5 +88,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public int add(int a ,int b){
         return a+b;
+    }
+
+    public  int sheng(int a , int b ){
+        return  a*b;
+
     }
 }
